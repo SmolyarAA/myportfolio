@@ -1,0 +1,362 @@
+:root {
+  --main-bd-color: #000;
+}
+
+:root {
+  --theme-text-color: #FF8A56;
+}
+
+body{
+
+}
+
+.Desctop {
+	position: relative;
+	display: flex;	
+	flex-direction: column;
+	max-width: 1440px;
+	height: 8257px;
+	background: #FFFFFF;
+	border: 1px solid var(--main-bd-color);
+	margin: 0 auto;
+}
+
+@media(max-width: 1440px){
+	.Desctop{
+		min-width: 970px;
+	}
+}
+@media(max-width: 992px){
+	.Desctop{
+		min-width: 750px;
+	}
+}
+@media(max-width: 767px){
+	.Desctop{
+		min-width: none;
+	}
+}
+
+.header {
+	position: relative;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	margin: 0 auto;
+	min-height: 81px;
+	/*max-width: 1215px;*/	
+	width: 85%;	
+	/*left: 0;*/
+	/*right: 7.81%;	*/
+	top: 0px;
+	border: 1px solid var(--main-bd-color);
+}
+
+.header .logo{
+	    height: 19.321521759033203px;
+		width: 195.61199951171875px;
+		border: 1px solid var(--main-bd-color);
+		margin-right: 415px;
+}
+
+.header .text {
+	display: inline-flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;	
+	width: 515px;
+	/*width: 50%;	*/
+	height: 38px;			
+
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	color: #000000;
+	border: 1px solid var(--main-bd-color);
+}
+
+.hero{
+	display: flex;	
+	justify-content: space-between;
+	flex-wrap: wrap;
+	margin: 0 auto;	
+	/*width: 1215px;	*/
+	width: 85%;
+    min-height: 685px;
+	border: 1px solid var(--main-bd-color);
+}
+
+.hero-left-part{
+	display: inline-block;
+    border: 1px solid var(--main-bd-color); 
+}
+
+.hero .information h1{
+	margin-top: 20;	
+	display: inline-block;	
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 72px;
+	line-height: 82px;
+	letter-spacing: 2px;
+	color: #000000;
+	border: 1px solid var(--main-bd-color);
+}
+
+.hero .information span{
+	color: var(--theme-text-color);
+}
+
+.hero .greeting{
+	border: 1px solid var(--main-bd-color);
+	height: 75px;
+	width: 547px;	
+	left: 0.07%;
+
+
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 22px;
+	line-height: 33px;
+	color: #666666;
+}
+
+.hero .greeting p{
+	margin: auto;
+}
+
+.buttons{
+	display: inline-flex;	
+	justify-content: space-between;
+	margin-top: 50px;	
+	height: 58px;
+	width: 400px;	
+	border: 1px solid var(--main-bd-color);
+}
+
+.buttons .book{
+	height: 58px;	
+	width: 151px;	
+	background: #000000;
+
+	font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 18px;
+    color: #FFFFFF;
+    text-align: center;	
+}
+
+.buttons .download{
+	display: inline-flex;	
+	justify-content: space-around;
+	align-items: center;	
+    border: 1px solid var(--main-bd-color);
+	width: 170px;	
+
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	color: #000000;
+	text-align: left;	
+}
+
+.download img{
+	width: 15px;	
+	height: 15px;	
+}
+
+.hero .photo{
+	padding-top: 40px;	
+	border: 1px solid var(--main-bd-color);
+	height: 355px;
+	left: 58.89%;
+	right: -0.04%;
+}
+
+.download img{
+	border-radius: 30 px;
+}
+
+.logo-box{
+	display: flex;
+	flex-direction: column;
+	margin: 0 auto;	
+	border: 1px solid var(--main-bd-color);
+	max-width: 85%;	
+	min-height: 200px;	
+
+}
+
+.logo-box .top{
+	align-self: center;	
+	border: 1px solid var(--main-bd-color);
+	margin-bottom: 30px;
+
+	font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 18px;
+    color: #000000;
+}
+
+.logo-box .main{
+	display: flex;	
+	justify-content: space-between;
+	flex-wrap: wrap;
+	/*max-width: 1215px;	*/
+	max-width: 100%;	
+
+	border: 1px solid var(--main-bd-color);
+}
+
+.logo-box .main img{
+	padding: 40px;	
+	width: 141px;	
+	height: 32px;	
+}
+
+.explanation{	
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	margin: 0px auto;	
+	border: 1px solid var(--main-bd-color);
+	max-width: 100%;	
+	min-height: 813px;	
+}
+
+.explanation-top{
+	display: inline-block;	
+	margin: 0 auto;	
+
+	border: 1px solid var(--main-bd-color);
+	color: var(--theme-text-color);
+	font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+
+.explanation-logo{
+	display: inline-block;
+	max-width: 	100%;	
+	min-height: 150px;
+
+	border: 1px solid var(--main-bd-color);	
+	font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 59px;
+    text-align: center;
+    letter-spacing: 1px;
+    color: #000000;
+}
+
+.explanation-logo p{
+	vertical-align: center;	
+	margin-top: 5px;	
+}
+
+.self-advert{
+	display: flex;	
+	flex-wrap: wrap;
+	justify-content: space-between;
+	max-width: 100%;	
+
+	border: 1px solid var(--main-bd-color);
+}
+
+.self-advert .feature{
+	width: 306px;	
+	height: 381px;
+	padding: 0 50px;		
+	border: 1px solid var(--main-bd-color);
+}
+
+.picture{
+	position: relative;
+	width: 70px;
+	height: 70px;
+	border: 1px solid var(--main-bd-color);
+}
+
+.feature .subtitle{
+	border: 1px solid var(--main-bd-color);
+	top: 20px;	
+	font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 26px;
+    color: #000000;
+}
+
+.content{
+	font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #666666;
+}
+
+}
+
+.feature ul{
+	font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 28px;
+    color: #000000;
+}
+
+.triangle-up{
+	position: relative;
+	display: inline-block;
+	top: 10px;	
+}
+
+.triangle-low{
+	position: relative;
+	display: inline-block;	
+	top: -20px;
+    left: 21px;
+    transform: rotate(120deg);
+}
+
+#img5{
+	position: relative;
+	left: 20px;	
+}
+
+.project-box{
+	position: relative;	
+	display: flex;
+	margin: 0px auto;	
+	border: 1px solid var(--main-bd-color);
+	width: 85%;	
+	min-height: 855px;	
+}
+
+.blogs-box{
+	position: relative;	
+	display: flex;
+	margin: 0px auto;	
+	border: 1px solid var(--main-bd-color);
+	width: 85%;		
+	min-height: 1637px;	
+}
