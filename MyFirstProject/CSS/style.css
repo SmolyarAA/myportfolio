@@ -7,8 +7,8 @@
 	width: 1440px;
 	height: 8257px;
 	background: #FFFFFF;
-	border: 1px solid var(--main-bd-color);
-	margin: 0 auto;
+		border: 1px solid var(--main-bd-color);
+		margin: 	0px auto;
 }
 
 .header {
@@ -199,3 +199,4 @@ text-align: left;
 	height: 1637px;	
 	top: 685px;	
 }
+
